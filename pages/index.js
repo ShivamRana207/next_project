@@ -14,6 +14,7 @@ export default function Home() {
       </Head>
 
       <Navbar/>
+      <Image src="/home.jpg" width="500" height="500" />
       <Footer/>
 
     </div>
