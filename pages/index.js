@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 
 export default function Home() {
@@ -11,20 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
-        <h1 className='mx-4'>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Navbar/>
+      <Footer/>
 
-        <p className='mx-4'>
-          Get started by editing{' '}
-          <code >pages/index.js</code>
-        </p>
-
-        
-      </main>
-
-     
     </div>
   )
 }
