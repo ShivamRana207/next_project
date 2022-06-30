@@ -3,10 +3,10 @@ import Link from 'next/link'
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 const Navbar = () => {
   return (
-    <div className=' flex flex-col md:flex-row md:justify-start  justify-center item-center'>
+    <div className=' flex flex-col md:flex-row md:justify-start  justify-center item-center shadow-md'>
       <div className='nav py-4'>
         <ul className='flex  item-center cursor-pointer space-x-2 font-bold'>
-          <Link href={'/tshirt'}><a><li>Tshirts</li></a></Link>
+          <Link href={'/tshirts'}><a><li>Tshirts</li></a></Link>
           <Link href={'/hoodies'}><a><li>Hoodies</li></a></Link>
           <Link href={'/underwears'}><a><li>Underwears</li></a></Link>
           <Link href={'/shorts'}><a><li>Shorts</li></a></Link>
