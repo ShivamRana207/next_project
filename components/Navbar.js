@@ -8,7 +8,7 @@ const Navbar = () => {
         <ul className='flex  item-center cursor-pointer space-x-2 font-bold'>
           <Link href={'/tshirts'}><a><li>Tshirts</li></a></Link>
           <Link href={'/hoodies'}><a><li>Hoodies</li></a></Link>
-          <Link href={'/underwears'}><a><li>Underwears</li></a></Link>
+          <Link href={'/kidswear'}><a><li>Kidswear</li></a></Link>
           <Link href={'/shorts'}><a><li>Shorts</li></a></Link>
         </ul>
       </div>
