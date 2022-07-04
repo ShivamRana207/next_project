@@ -10,6 +10,8 @@ const Navbar = () => {
           <Link href={'/hoodies'}><a><li>Hoodies</li></a></Link>
           <Link href={'/kidswear'}><a><li>Kidswear</li></a></Link>
           <Link href={'/shorts'}><a><li>Shorts</li></a></Link>
+          <Link href={'/about'}><a><li>About Us</li></a></Link>
+          <Link href={'/contact'}><a><li>Contact</li></a></Link>
         </ul>
       </div>
       <div className="cart absolute right-0 top-4 mx-5">
